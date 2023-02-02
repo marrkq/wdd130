@@ -10,11 +10,16 @@ content {
 }
 
 div { 
-	max-width: 1080px; 
+	max-width: 1600px; 
+    margin: 0 auto;
 }
+
+
 
 p {
     margin: 35px;
+    text-align: center;
+
 }
 
 #hero-msg h1{
