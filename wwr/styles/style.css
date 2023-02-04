@@ -161,6 +161,10 @@ footer a:hover{
     text-decoration: underline;
 }
 
+footer p {
+    padding: 25px;
+}
+
 .icon{
     width: 80px;
     padding-top: 10px;
