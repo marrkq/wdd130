@@ -246,8 +246,7 @@ footer .social img{
 .rivers-card {
     margin: 200px 0;
     grid-column: 2/4;
-    grid-row: 2/3;
-   
+    grid-row: 2/3;  
 
 }
 
@@ -289,6 +288,49 @@ main section img {
     box-sizing: border-box;
   
 }
+
+
+
+#hero-img2{
+    width: 100%;
+}
+
+.home-grid-high {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    
+}
+
+.boise-river, .snake-river {
+
+    padding: 20px;
+    grid-column: span 5;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    
+
+
+}
+.boise-river img, .snake-river img {
+  height: 300px;
+  width: auto;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+  
+.cherry-creek {
+
+    padding: 20px;
+    grid-column: 1/11;
+    grid-row: 2/3;
+    
+}
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
