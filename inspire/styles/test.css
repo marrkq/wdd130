@@ -1,0 +1,318 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Gabriela&family=Merriweather:wght@300&display=swap');
+
+
+/* Styles for the header section */
+.home-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home-top nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.home-top a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home-top a:hover {
+  color: #0077b5;
+}
+
+/* Styles for the main section */
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 2rem;
+  margin: 2rem;
+
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 1rem;
+}
+
+#hero-msg {
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0077b5;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.contact:hover {
+  background-color: #005d8f;
+}
+
+.projects-1w,
+.future-projects-1w {
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+#projects-1i,
+#future-projects-1i {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Styles for the footer section */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Gabriela&family=Merriweather:wght@300&display=swap');
+
+
+/* Section 1: Home top */
+.home-top {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #191970;
+}
+
+/* Section 2: Header */
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #191970;
+}
+
+/* Section 3: Navigation */
+nav a:hover {
+  background-color: #fffdd0;
+  color: #191970;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffd700;
+  padding: 35px;
+  font-size: xx-large;
+}
+
+/* Section 4: Body */
+body {
+  margin: 0;
+}
+
+#projects-1i,
+#future-projects-1i {
+  max-width: 30%;
+  height: auto;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/* Hero section */
+#hero {
+  grid-column: 1/ span 10;
+  grid-row: 1/ span 2;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  background-image: url(images/rsz_1glasses.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 100px;
+}
+
+#hero-msg {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  /* other styles */
+}
+
+
+#projects {
+  grid-column: 1/ span 5;
+  grid-row: 3/ span 1;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+#future-projects {
+  grid-column: 6/ span 5;
+  grid-row: 3/ span 1;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-image{
+  grid-column: 1/ span 10;
+  grid-row: 1/ span 2;
+}
+
+
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Gabriela&family=Merriweather:wght@300&display=swap');
+
+
+
+
+/* Section 1: Home top */
+.home-top {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background-color: #191970;
+}
+
+/* Section 2: Header */
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #191970;
+}
+
+/* Section 3: Navigation */
+nav a:hover {
+  background-color: #fffdd0;
+  color: #191970;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffd700;
+  padding: 35px;
+  font-size: xx-large;
+ 
+}
+
+/* Section 4: Body */
+body {
+  margin: 0;
+
+}
+
+#projects-1i,
+#future-projects-1i {
+  max-width: 30%;
+  height: auto;
+
+}
+#hero-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+#hero {
+  display: grid;
+  margin-top: -100px; 
+ 
+}
+
+#hero-img {
+  width: 100%;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+
+}
+
+footer {
+  background-color: #6f7364;
+  padding: 25px 50px;
+  margin-top: 200px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+content {
+  text-align: center;
+  margin: 0 auto;
+}
