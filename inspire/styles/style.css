@@ -244,6 +244,8 @@ body{
 .hero-msg {
   grid-column: 1 / 13;
   text-align: center;
+  font-family: "Gabriela, Merriweather";;
+  font-size: medium;
 }
 
 .hero-box {
@@ -251,28 +253,34 @@ body{
 }
 
 .social {
-  position: relative;
-  z-index: 2;
-  grid-column: 1 / 11;
+  position: absolute;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%; /* make the width of social icons container smaller so the icons can be larger and more spaced out */
   max-width: 600px; /* set a max width for the container so it doesn't become too wide on large screens */
   margin-top: 100px;
-  padding-top: 20px;
+  padding-top: 70px;
+
 }
 
-.social-image {
+.social{
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 190%;
+  left: 50%;
+  transform: translate(-130%, -50%);
   width: 600%;
   height: auto;
+  z-index: 2;
+  justify-content: space-between;
 }
 
 .social img {
-  transform: scale(1.5);
+  transform: scale(4);
+  margin: 0 240px; 
+
+
 }
 
 .hero-box-2 {
@@ -293,4 +301,26 @@ body{
 .hero-box:nth-of-type(2) {
   position: relative;
   z-index: 1;
+
+
+}
+@media (max-width: 480px) {
+  /* Header styles */
+  nav {
+    padding: 0.5rem;
+  }
+
+  /* Hero section styles */
+  .hero-msg h2 {
+    font-size: 1.5rem;
+    font-family: Gabriela, Merriweather;
+  }
+
+  .social {
+    margin-top: 0.5rem;
+  }
+
+  .social a {
+    margin: 0 0.2rem;
+  }
 }
