@@ -64,6 +64,15 @@ nav a {
 
 }
 
+.hero-msg p{
+  font-family: Cinzel, Helvetica, sans-serif;
+
+}
+
+.hero-msg h2{
+  font-family: Gabriela, Merriweather;
+}
+
 
 .hero-title {
   position: absolute;
@@ -76,6 +85,7 @@ nav a {
   font-weight: bold;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
+
 
 
 .contact {
@@ -218,6 +228,10 @@ body{
   color: white;
   transform: rotateY(180deg);
 }
+
+
+/* Additional styles */
+
 .logo1 {
   width: 30%;
 }
@@ -258,8 +272,8 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%; /* make the width of social icons container smaller so the icons can be larger and more spaced out */
-  max-width: 600px; /* set a max width for the container so it doesn't become too wide on large screens */
+  width: 80%; 
+  max-width: 600px;
   margin-top: 100px;
   padding-top: 70px;
 
@@ -269,7 +283,7 @@ body{
   position: absolute;
   top: 190%;
   left: 50%;
-  transform: translate(-130%, -50%);
+  transform: translate(-130%, 10%);
   width: 600%;
   height: auto;
   z-index: 2;
@@ -277,10 +291,20 @@ body{
 }
 
 .social img {
-  transform: scale(4);
-  margin: 0 240px; 
+  margin: 0 120px; 
+}
+.social a[href*="twitter"] img {
+  width: 250px;
+  height: 250px;
+}
 
-
+.social a[href*="instagram"] img {
+  width: 250px;
+  height: 250px;
+}
+.social a[href*="facebook"] img {
+  width: 250px;
+  height: 250px;
 }
 
 .hero-box-2 {
@@ -304,6 +328,20 @@ body{
 
 
 }
+
+
+/*---site3---*/
+.footer2 {
+  font-size: xx-large;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 480px) {
   /* Header styles */
   nav {
